@@ -1,0 +1,76 @@
+# IDEA
+
+/.idea
+.idea_modules/
+*.iml
+/lib
+
+# OSX
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+
+ehthumbs.db
+Thumbs.db
+
+# Build directories
+
+**/target
+target
+out/
+overlays/
+/data/
+/statics/themes/themes/default/css/
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle
+out
+build
+generated
+
+# ??
+*.log
+# --- 依赖与构建产物（不进交付快照）---
+node_modules/
+bower_components/
+.pnp.*
+dist/
+build/
+target/
+.next/
+.nuxt/
+.svelte-kit/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+vendor/bundle/
+Pods/
+.gradle/
+.cargo/
+.env
+.env.*
+coverage/
+.coverage
+.nyc_output/
+.cache/
+.parcel-cache/
+.vite/
+.turbo/
+*.tsbuildinfo
